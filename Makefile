@@ -86,7 +86,7 @@ data/$(TODAY)/doaj.csv:
 	mv $@.wip $@
 
 data/$(TODAY)/crossref_titles.csv:
-	wget -c "https://wwwold.crossref.org/titlelist/titleFile.csv" -O $@.wip
+	wget -c "http://ftp.crossref.org/titlelist/titleFile.csv" -O $@.wip
 	mv $@.wip $@
 
 data/$(TODAY)/onix_pkp_pln.csv:
